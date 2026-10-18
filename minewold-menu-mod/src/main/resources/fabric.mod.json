@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "minewold_menu",
+  "version": "${version}",
+  "name": "Minewold Menu",
+  "description": "Menú principal de Minewold: solo Jugar en Minewold y Un jugador.",
+  "authors": ["Minewold"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["net.minewold.menu.MinewoldMenu"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.6",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
